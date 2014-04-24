@@ -1,0 +1,21 @@
+{
+  "name": "in-viewport",
+  "description": "Get a callback when an element enters the viewport",
+  "version": "0.4.0",
+  "main": "in-viewport.js",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "test/*.js"
+  ],
+  "homepage": "https://github.com/vvo/in-viewport",
+  "_release": "0.4.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.4.0",
+    "commit": "ac8ec65a0c4651e15721cdca946f423a4232f1d6"
+  },
+  "_source": "git://github.com/vvo/in-viewport.git",
+  "_target": "~0.4.0",
+  "_originalSource": "in-viewport"
+}

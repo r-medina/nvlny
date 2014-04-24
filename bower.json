@@ -1,0 +1,10 @@
+{
+  "name": "nvlny",
+  "version": "0.0.2",
+  "dependencies": {
+    "requirejs": "2.1.9",
+    "font-awesome": "~4.0.2",
+    "foundation": "zurb/bower-foundation#~5.1.1",
+    "jquery": "~2.1.0"
+  }
+}
