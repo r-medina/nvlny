@@ -50,12 +50,9 @@ $(document).ready(function() {
       type: "POST",
       url: "http://nvlny.herokuapp.com?email=" + email
     })
-    .done(function(data) {
+    .always(function(data) {
       $('#email').val('thank you!');
       $(e.target).addClass('disabled');
-    })
-    .fail(function(data) {
-      $('#email').val('try again');
     });
 
     post.send();
