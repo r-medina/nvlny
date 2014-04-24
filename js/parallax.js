@@ -44,6 +44,8 @@ $(document).ready(function() {
   });
 
   $('#add-email').on('click', function(e) {
+    e.preventDefault();
+
     var email = $('#email').val();
 
     var post = $.ajax({
