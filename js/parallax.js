@@ -43,4 +43,21 @@ $(document).ready(function() {
     }
   });
 
+  $('#add-email').on('click', function(e) {
+    var email = $('#email').val();
+
+    var post = $.ajax({
+      type: "POST",
+      url: "http://nvlny.herokuapp.com?email=" + email
+    })
+    .done(function(data) {
+      $('#email').val('thank you!');
+      $(e.target).addClass('disabled');
+    })
+    .fail(function(data) {
+      $('#email').val('try again');
+    });
+
+    post.send();
+  });
 });
